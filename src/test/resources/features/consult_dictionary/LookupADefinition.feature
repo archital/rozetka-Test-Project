@@ -5,6 +5,6 @@ Feature: Search on the web
 
   Scenario: As User I want to search
     Given the page is open with url "http://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/"
-    When User search for 'cucumber'
-    Then User browser's title should contain "Закрыть"
+    When User search for cucumber
+    Then User browser's title should contain Закрыть
 
